@@ -1,0 +1,89 @@
+.section-title {
+    font-size: 2rem;
+    display: block;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.bottom-line {
+    height: 2px;
+    width: 3rem;
+    background: #34fa87;
+    display: block;
+    margin: 0 auto 1rem auto;
+}
+
+
+img {
+    width: 100%;
+}
+
+#about-a .about-info {
+    display: grid;
+    grid-template-areas: "bioimage bio bio"
+        "aw1 aw2 aw3";
+    grid-gap: 1.2rem;
+}
+
+#about-a .bio-image {
+    grid-area: bioimage;
+}
+
+#about-a .bio {
+    grid-area: bio;
+    border-left: 3px solid #34fa87;
+    padding: 0.8rem;
+}
+
+#about-a .award-1 {
+    grid-area: aw1;
+}
+
+#about-a .award-2 {
+    grid-area: aw2;
+}
+
+#about-a .award-3 {
+    grid-area: aw3;
+}
+
+#about-a .award-1 .fas,
+#about-a .award-2 .fas,
+#about-a .award-3 .fas {
+    color: #34fa87;
+    margin: 1rem;
+}
+
+#about-b .progress {
+    overflow: hidden;
+    height: 20px;
+    background: #ccc;
+    border-radius: 5px;
+    margin-bottom: 0.6rem;
+}
+
+#about-b .progress div {
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    background: #34fa87;
+}
+
+
+
+@media (max-width: 500px) {
+
+    #about-a .about-info {
+        grid-template-areas: "bioimage"
+            "bio"
+            "aw1"
+            "aw2"
+            "aw3";
+    }
+
+    #about-c {
+        display: none;
+    }
+}

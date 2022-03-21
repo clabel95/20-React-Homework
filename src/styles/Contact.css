@@ -1,0 +1,98 @@
+
+.title {
+    font-size: 2rem;
+    display: block;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.line {
+    height: 2px;
+    width: 3rem;
+    background: #34fa87;
+    display: block;
+    margin: 0 auto 1rem auto;
+}
+
+
+
+#contact-a .text-field {
+    display: grid;
+    grid-template-areas: "name email"
+        "subject phone"
+        "message message";
+    grid-gap: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+#contact-a .text-field .name-input {
+    grid-area: name;
+}
+
+#contact-a .text-field .subject-input {
+    grid-area: subject;
+}
+
+#contact-a .text-field .email-input {
+    grid-area: email;
+}
+
+#contact-a .text-field .message-input {
+    grid-area: message;
+    height: 100px;
+}
+
+#contact-a .text-field .text-input {
+    padding: 0.5rem 1rem;
+}
+
+#contact-a button[type="submit"] {
+    width: 100%;
+}
+
+
+
+
+#contact-b .contact-me {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5rem;
+    text-align: center;
+    color:#333;
+}
+
+#contact-b .contact-me-icon {
+    border-radius: 50%;
+    background: #333;
+    color: #fff;
+    padding: 2rem;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    position: relative;
+    transition: all 1s;
+}
+
+#contact-b .contact-me-icon:hover {
+    background: #34fa87;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+}
+
+
+
+.fas {
+    color: #333;
+}
+
+@media (max-width: 500px) {
+
+    #contact-b .contact-me {
+        grid-template-columns: 1fr;
+    }
+
+}
