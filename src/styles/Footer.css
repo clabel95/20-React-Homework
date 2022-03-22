@@ -37,6 +37,11 @@ footer a {
     height: 5rem;
     align-items: center;
 }
+.social {
+    display:flex;
+    width:100%;
+    justify-content: space-around;  
+}
 
 footer .footer-content {
     display: flex;

@@ -8,7 +8,7 @@ import Footer from './Footer';
 
 
 export default function Container() {
-    const [currentPage, setCurrentPage] = useState('Home');
+    const [currentPage, setCurrentPage] = useState('AboutMe');
 
 
     const renderPage = () => {
