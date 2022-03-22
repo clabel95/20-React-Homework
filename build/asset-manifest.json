@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "./static/css/main.c02f2981.css",
+    "main.js": "./static/js/main.2a287645.js",
+    "static/media/mountian.jpg": "./static/media/mountian.07cdcd97c5c7ef7dba02.jpg",
+    "static/media/ReactPortfolio.jpg": "./static/media/ReactPortfolio.064d7ee408cb5fd2c63c.jpg",
+    "static/media/DeckedOut.jpg": "./static/media/DeckedOut.6fd6f359e3ba69d5e9cc.jpg",
+    "static/media/Clayton_Abel-Resume.pdf": "./static/media/Clayton_Abel-Resume.ecf1fc7029aaec0a473d.pdf",
+    "static/media/Me.jpg": "./static/media/Me.b248466ec450504281bc.jpg",
+    "static/media/NoteTaker.jpg": "./static/media/NoteTaker.5cfb93286c87c616c960.jpg",
+    "static/media/TextEditor.jpg": "./static/media/TextEditor.a41c8bf04dbaec7fc22a.jpg",
+    "index.html": "./index.html",
+    "main.c02f2981.css.map": "./static/css/main.c02f2981.css.map",
+    "main.2a287645.js.map": "./static/js/main.2a287645.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c02f2981.css",
+    "static/js/main.2a287645.js"
+  ]
+}
