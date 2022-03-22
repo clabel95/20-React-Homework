@@ -6,10 +6,10 @@ const Footer = () => (
         <div className="footer-content container">
             <div className="social">
                 <a href="https://github.com/clabel95" target="_blank">
-                    <i className="fab fa-github fa-4x"></i>
+                <ion-icon name="logo-github"></ion-icon>
                 </a>
                 <a href="https://www.linkedin.com/in/clayton-abel/" target="_blank">
-                    <i className="fab fa-linkedin fa-4x"></i>
+                <ion-icon name="logo-linkedin"></ion-icon>
                 </a>
             </div>
         </div>

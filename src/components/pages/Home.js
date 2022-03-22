@@ -1,7 +1,6 @@
 import React from 'react';
 import "../../styles/Home.css"
-import TextEditor from "../../assets/TextEditor.PNG"
-import NoteTaker from "../../assets/NoteTaker.PNG"
+import projects from "../Projects"
 
 
 
@@ -12,35 +11,25 @@ const Home = () => (
         <div className="container">
             <h2 className="title">My Portfolio</h2>
             <div className="line"></div>
-
-            <div className="cards">
-                <div className="card">
-                    <div className="card-image">
-                        <img src={TextEditor} alt="" height="100%" />
-                    </div>
-                    <a href="https://text--editor--pwa.herokuapp.com/" target={"_blank"}>
-                        <div className="card-text">
-                            <div className="card-text-wrap">
-                                <p className="card-text-category">PWA</p>
-                                <h2 className="card-text-title">Text Editor</h2>
-                                <a href="https://github.com/clabel95/PWA-Text-Editor" target={"_blank"}><i className="fab fa-github fa-3x my-2"></i></a>
+            <div className="flex flex-wrap -m-4">
+                <div className="cards">
+                    {projects.map((project) => (
+                        <div key={project.image} className="card">
+                            <div className="card-image">
+                                <img src={project.image} alt="" height="100%" />
                             </div>
-                        </div></a>
-                </div>
-                <div className="card">
-                    <div className="card-image">
-                        <img src={NoteTaker} alt="" height="100%" />
-                    </div>
-                    <a href="https://express-hw11.herokuapp.com/notes" target={"_blank"}>
-                        <div className="card-text">
-                            <div className="card-text-wrap">
-                                <p className="card-text-category">Express</p>
-                                <h2 className="card-text-title">Note Taker</h2>
-                                <a href="https://github.com/clabel95/11-Express-Homework" target={"_blank"}><i className="fab fa-github fa-3x my-2"></i></a>
+                            <div className="card-text">
+                                <div className="card-text-wrap">
+                                    <p className="card-text-category">{project.technology}</p>
+                                    <h2 className="card-text-title">{project.title}</h2>
+                                    <a href={project.website} target={"_blank"}><ion-icon name="globe-outline"></ion-icon></a>
+                                    <a href={project.github} target={"_blank"}><ion-icon name="logo-github"></ion-icon></a>
+                                </div>
                             </div>
-                        </div></a>
-                </div>
+                        </div>
 
+                    ))}
+                </div>
             </div>
         </div>
     </section>
