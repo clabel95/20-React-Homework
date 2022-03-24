@@ -7,10 +7,10 @@ import projects from "../Projects"
 
 const Home = () => (
 
-    <section id="work" className="center-page py-3">
+    <section id="work" className="center-page home">
         <div className="container">
             <h2 className="title">My Portfolio</h2>
-            <div className="line"></div>
+            <div className="divider-line"></div>
 
             <div className="cards">
                 {projects.map((project) => (

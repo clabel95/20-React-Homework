@@ -3,12 +3,12 @@ import "../../styles/Contact.css";
 
 const Contact = () => (
     <div>
-        <section id="contact-b" className="center-page py-2">
+        <section id="contact-icon" className="center-page social">
             <div className="container">
             <h2 className="title">Social</h2>
-                <div className="line"></div>
-                <div className="contact-me">
-                    <div>
+                <div className="divider-line"></div>
+                <div className="contact-icons">
+                    <div >
                         <a href="mailto:clayton.abel.95@gmail.com">
                         <ion-icon name="mail-outline"></ion-icon>
                             <h3>Email</h3>
@@ -32,49 +32,48 @@ const Contact = () => (
                 </div>
             </div>
         </section>
-        <section id="contact-a" className="text-center py-3">
+        <section id="contact" className="text-center">
             <div className="container">
                 <h2 className="title">Contact Me</h2>
-                <div className="bottom-line"></div>
-                <p className="lead"></p>
+                <div className="divider-line"></div>
                 <form action="https://formspree.io/f/xayvbkaz" method="POST">
                     <div className="text-field">
                         <input
                             type="text"
-                            className="text-input name-input"
+                            className="name-I"
                             placeholder="Name"
                             required
                             name="name"
                         />
                         <input
                             type="text"
-                            className="text-input subject-input"
+                            className="subject-I"
                             placeholder="Subject"
                             required
                             name="subject"
                         />
                         <input
                             type="email"
-                            className="text-input email-input"
+                            className="email-I"
                             placeholder="Email Address"
                             required
                             name="email"
                         />
                         <input
                             type="text"
-                            className="text-input phone-input"
+                            className="phone-I"
                             placeholder="Phone Number"
                             name="phone"
                         />
                         <textarea
-                            className="text-input message-input"
+                            className="message-I"
                             placeholder="Enter Message"
                             required
                             name="message"
                         ></textarea>
                     </div>
 
-                    <button type="submit" className="btn-dark">
+                    <button id="submit" type="submit" className="btn-dark">
                         Submit
                     </button>
                 </form>

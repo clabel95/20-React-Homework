@@ -5,7 +5,7 @@ import resume from "../../assets/Clayton_Abel-Resume.pdf"
 
 const Resume = () => (
     <div>
-        <section id="contact-b" className="center-page py-2">
+        <section id="contact-b" className="center-page home">
             <div className="container">
                 <a href={resume} target="_blank">
                     <i class="fas fa-solid fa-file fa-10x"></i>

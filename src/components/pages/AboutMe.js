@@ -7,10 +7,10 @@ import "../../styles/Contact.css";
 
 const AboutMe = () => (
     <div>
-        <section id="about-a" className="text-center py-3">
+        <section id="about" className="text-center about_me">
             <div className="container">
-                <h2 className="section-title">About Me</h2>
-                <div className="bottom-line"></div>
+                <h2 className="AboutMe">About Me</h2>
+                <div className="divider-line"></div>
                 <div className="about-info">
                     <img src={profilePic} alt="" className="bio-image" />
                     <div className="bio bg-light">

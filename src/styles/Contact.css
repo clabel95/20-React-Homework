@@ -1,98 +1,81 @@
-
 .title {
     font-size: 2rem;
     display: block;
-    padding-bottom: 0.5rem;
+    padding-bottom: .1%;
     text-align: center;
-    font-weight: 100;
-    text-transform: uppercase;
 }
 
-.line {
+.divider-line {
     height: 2px;
-    width: 3rem;
+    width: 10%;
     background: #34fa87;
     display: block;
-    margin: 0 auto 1rem auto;
+    margin: 0 auto 5% auto;
 }
 
+.btn-dark {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    transition: all 0.5s;
+    border: none;
+    cursor: pointer;
+}
 
+#contact {
+    padding-bottom:3rem;
+}
 
-#contact-a .text-field {
+button[class^="btn-"]:hover,
+a[class^="btn-"]:hover,
+input[class^="btn-"]:hover {
+    background-color: #34fa87;
+}
+
+.text-field {
     display: grid;
-    grid-template-areas: "name email"
-        "subject phone"
-        "message message";
-    grid-gap: 1.2rem;
-    margin-bottom: 1.2rem;
+    grid-template-areas:
+        "a b"
+        "c d"
+        "e e";
+    grid-gap: 2%;
+    margin-bottom: 5%;
 }
 
-#contact-a .text-field .name-input {
-    grid-area: name;
+.btn-dark {
+    color: #f4f4f4;
+    background-color: #333;
 }
 
-#contact-a .text-field .subject-input {
-    grid-area: subject;
+.message-I {
+    grid-area: e;
+    height: 200px;
+    padding: 2% 5%;
 }
 
-#contact-a .text-field .email-input {
-    grid-area: email;
-}
-
-#contact-a .text-field .message-input {
-    grid-area: message;
-    height: 100px;
-}
-
-#contact-a .text-field .text-input {
-    padding: 0.5rem 1rem;
-}
-
-#contact-a button[type="submit"] {
+#submit {
     width: 100%;
 }
 
-
-
-
-#contact-b .contact-me {
+.contact-icons {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1.5rem;
     text-align: center;
-    color:#333;
 }
 
-#contact-b .contact-me-icon {
-    border-radius: 50%;
-    background: #333;
-    color: #fff;
-    padding: 2rem;
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
-    text-align: center;
-    position: relative;
-    transition: all 1s;
-}
+@media (max-width: 700px) {
 
-#contact-b .contact-me-icon:hover {
-    background: #34fa87;
-    width: 80px;
-    height: 80px;
-    line-height: 80px;
-}
+    .contact-icons {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 
+    .contact-icons h3 {
+        display: none;
+    }
 
-
-.fas {
-    color: #333;
-}
-
-@media (max-width: 500px) {
-
-    #contact-b .contact-me {
-        grid-template-columns: 1fr;
+    .contact-icons p {
+        display: none;
     }
 
 }

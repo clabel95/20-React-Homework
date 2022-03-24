@@ -1,19 +1,12 @@
 import React from "react";
 import "../styles/NavBar.css";
 
-const styles = {
-    namePlate: {
-        "font-size": "50px",
-        "font-family": "Cinzel, Arial, Helvetica, sans-serif",
-    },
-};
-
 function NavTabs({ currentPage, handlePageChange }) {
     return (
         <header id="header-inner">
             <div className="container">
                 <nav id="main-nav">
-                    <h1 style={styles.namePlate}>Clayton Abel</h1>
+                    <h1 id="NAME">Clayton Abel</h1>
                     <ul>
                         <li>
                             <a href="#home" onClick={() => handlePageChange("Home")} className={currentPage === "Home" ? "current" : ""}>
