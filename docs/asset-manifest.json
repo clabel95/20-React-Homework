@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.9ed5aa50.css",
-    "main.js": "./static/js/main.546f4b8e.js",
+    "main.css": "./static/css/main.7b934f26.css",
+    "main.js": "./static/js/main.aee4e196.js",
     "static/media/ReactPortfolio.jpg": "./static/media/ReactPortfolio.064d7ee408cb5fd2c63c.jpg",
     "static/media/DeckedOut.jpg": "./static/media/DeckedOut.6fd6f359e3ba69d5e9cc.jpg",
     "static/media/Clayton_Abel-Resume.pdf": "./static/media/Clayton_Abel-Resume.ecf1fc7029aaec0a473d.pdf",
@@ -9,11 +9,11 @@
     "static/media/NoteTaker.jpg": "./static/media/NoteTaker.5cfb93286c87c616c960.jpg",
     "static/media/TextEditor.jpg": "./static/media/TextEditor.a41c8bf04dbaec7fc22a.jpg",
     "index.html": "./index.html",
-    "main.9ed5aa50.css.map": "./static/css/main.9ed5aa50.css.map",
-    "main.546f4b8e.js.map": "./static/js/main.546f4b8e.js.map"
+    "main.7b934f26.css.map": "./static/css/main.7b934f26.css.map",
+    "main.aee4e196.js.map": "./static/js/main.aee4e196.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ed5aa50.css",
-    "static/js/main.546f4b8e.js"
+    "static/css/main.7b934f26.css",
+    "static/js/main.aee4e196.js"
   ]
 }

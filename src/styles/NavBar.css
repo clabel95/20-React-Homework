@@ -68,8 +68,12 @@ ul {
 }
 
 .home {
-    padding-bottom: 8rem;
+    padding-bottom: 9rem;
     margin:1rem 0;
+}
+
+#spacer {
+    padding: 4rem;
 }
 
 .about_me {

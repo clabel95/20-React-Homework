@@ -28,7 +28,7 @@ const projects =  [
         title: "Note Taker",
         technology: "Express",
         website:"https://express-hw11.herokuapp.com/notes",
-        github:"https://github.com/clabel95/11-Express-Homework",
+        github:"https://github.com/clabel95/Note-Taker",
         image: NoteTaker
     },
     {

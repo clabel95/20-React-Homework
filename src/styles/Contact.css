@@ -4,7 +4,10 @@
     padding-bottom: .1%;
     text-align: center;
 }
-
+#resume{
+    padding-top:9rem;
+    min-height: 100%;
+}
 .divider-line {
     height: 2px;
     width: 10%;
