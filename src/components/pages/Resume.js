@@ -9,7 +9,7 @@ const Resume = () => (
             <div className="container">
                 <div id="spacer"></div>
                 <a href={resume} target="_blank">
-                    <i class="fas fa-solid fa-file fa-10x"></i>
+                    <i className="fas fa-solid fa-file fa-10x"></i>
                     <h3>My Resume</h3>
                     <p>Click to download</p>
                 </a>

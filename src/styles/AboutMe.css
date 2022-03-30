@@ -14,11 +14,18 @@
     display: grid;
     grid-template-areas: "bioimage bio";
     grid-gap: 2%;
-    margin:2rem 0;
+    /* margin:2rem 0; */
+    height:max-content;
 }
 .bio {
     border-left: 3px solid #34fa87;
     padding: 1%;
+}
+.bio-image{
+    align-self: center;
+    height:60%;
+    width:100%;
+
 }
 
 @media (max-width: 880px) {
